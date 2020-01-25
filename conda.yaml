@@ -1,0 +1,22 @@
+name: Inverse-Reinforcement-Learning
+channels:
+  - defaults
+  - conda-forge
+  - glemaitre
+  - akode
+dependencies:
+  - cvxopt
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - pandas
+  - pip
+  - python=2.7
+  - seaborn
+  - scipy
+  - tabulate
+  - tensorflow
+  - theano
+  - pip:
+    # - tensorflow==1.14.0
+    # - setuptools==40.6.3
